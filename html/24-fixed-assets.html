@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Assets - Buffet ERP User Manual</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand-wrapper">
+      <button class="mobile-menu-btn" aria-label="Toggle navigation menu"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+      <a href="index.html" class="brand-title"><img src="assets/images/logo.png" alt="Buffet ERP" class="brand-logo-img" /></a>
+    </div>
+    <div class="header-actions">
+      <div class="search-container">
+        <span class="search-icon"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6"/></svg></span>
+        <input type="text" class="search-input" placeholder="Search" aria-label="Search the manual" />
+        <span class="search-kbd" aria-hidden="true">Ctrl K</span>
+        <div class="search-results-dropdown"></div>
+      </div>
+    </div>
+  </header>
+  <div class="app-layout">
+    <nav class="app-sidebar" aria-label="Manual navigation">
+<div class="nav-group"><div class="nav-heading"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3-5a9 9 0 0 0 6-8a3 3 0 0 0-3-3a9 9 0 0 0-8 6a6 6 0 0 0-5 3"/><path d="M7 14a6 6 0 0 0-3 6a6 6 0 0 0 6-3m4-8a1 1 0 1 0 2 0a1 1 0 1 0-2 0"/></g></svg>Getting Started</div><ul class="nav-list"><li class="nav-item"><a href="index.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M5 12H3l9-9l9 9h-2M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/><path d="M9 21v-6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v6"/></g></svg><span>Manual Overview</span></a></li><li class="nav-item"><a href="01-introduction.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0M3 6v13m9-13v13m9-13v13"/></svg><span>Introduction &amp; Key Concepts</span></a></li><li class="nav-item"><a href="02-requirements.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1zm4 15h10m-8-4v4m6-4v4"/></svg><span>Equipment &amp; Printers</span></a></li><li class="nav-item"><a href="03-getting-started.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M9 8V6a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-7a2 2 0 0 1-2-2v-2"/><path d="M3 12h13l-3-3m0 6l3-3"/></g></svg><span>Login &amp; Open Register</span></a></li><li class="nav-item"><a href="23-everyday-basics.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h2.5m4.501 4a2 2 0 1 0 4 0a2 2 0 1 0-4 0m2-3.5V17m0 4v1.5m3.031-5.25l-1.299.75m-3.463 2l-1.3.75m0-3.5l1.3.75m3.463 2l1.3.75"/></svg><span>Everyday Basics</span></a></li></ul></div>
+<div class="nav-group"><div class="nav-heading"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M5 11a2 2 0 0 1 2 2v2h10v-2a2 2 0 1 1 4 0v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2"/><path d="M5 11V6a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3v5M6 19v2m12-2v2"/></g></svg>Front of House</div><ul class="nav-list"><li class="nav-item"><a href="04-dashboard.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h4a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m0 12h4a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1m10-4h4a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1m0-8h4a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1"/></svg><span>Dashboard &amp; Live Status</span></a></li><li class="nav-item"><a href="05-pos-operations.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M21 15h-2.5a1.503 1.503 0 0 0-1.5 1.5a1.503 1.503 0 0 0 1.5 1.5h1a1.503 1.503 0 0 1 1.5 1.5a1.503 1.503 0 0 1-1.5 1.5H17m2 0v1m0-8v1m-6 6H6a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h2m12 3.12V9a2 2 0 0 0-2-2h-2"/><path d="M16 10V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v6m8 0H8m8 0h1m-9 0H7m1 4v.01M8 17v.01m4-3.02V14m0 3v.01"/></g></svg><span>POS: Check-in &amp; Billing</span></a></li><li class="nav-item"><a href="06-reservations.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16"/><path d="M8 15h2v2H8z"/></g></svg><span>Reservations, Cancellations &amp; Refunds</span></a></li><li class="nav-item"><a href="19-customers-promotions.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="m9 15l6-6"/><circle cx="9.5" cy="9.5" r=".5" fill="currentColor"/><circle cx="14.5" cy="14.5" r=".5" fill="currentColor"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0"/></g></svg><span>Customers, Promotions &amp; Loyalty</span></a></li><li class="nav-item"><a href="26-quotations.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M14 3v4a1 1 0 0 0 1 1h4"/><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2M9 7h1m-1 6h6m-2 4h2"/></g></svg><span>Quotations</span></a></li><li class="nav-item"><a href="25-marketing.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M18 8a3 3 0 0 1 0 6m-8-6v11a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-5"/><path d="m12 8l4.524-3.77A.9.9 0 0 1 18 4.922v12.156a.9.9 0 0 1-1.476.692L12 14H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/></g></svg><span>Marketing &amp; Messaging</span></a></li></ul></div>
+<div class="nav-group"><div class="nav-heading"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3c1.918 0 3.52 1.35 3.91 3.151A4 4 0 0 1 18 13.874V21H6v-7.126a4 4 0 1 1 2.092-7.723A4 4 0 0 1 12 3M6.161 17.009L18 17"/></svg>Kitchen &amp; Stock</div><ul class="nav-list"><li class="nav-item"><a href="07-kitchen-production.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3c1.918 0 3.52 1.35 3.91 3.151A4 4 0 0 1 18 13.874V21H6v-7.126a4 4 0 1 1 2.092-7.723A4 4 0 0 1 12 3M6.161 17.009L18 17"/></svg><span>Production &amp; Kitchen Panel</span></a></li><li class="nav-item"><a href="08-menus-recipes.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 3v12h-5c-.023-3.681.184-7.406 5-12m0 12v6h-1v-3M8 4v17M5 4v3a3 3 0 1 0 6 0V4"/></svg><span>Food Menus &amp; Recipes</span></a></li><li class="nav-item"><a href="09-inventory-stock.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="m7 16.5l-5-3l5-3l5 3V19l-5 3z"/><path d="M2 13.5V19l5 3m0-5.455l5-3.03m5 2.985l-5-3l5-3l5 3V19l-5 3zM12 19l5 3m0-5.5l5-3m-10 0V8L7 5l5-3l5 3v5.5M7 5.03v5.455M12 8l5-3"/></g></svg><span>Ingredients, Stock &amp; Waste</span></a></li><li class="nav-item"><a href="20-purchases-suppliers.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M5 17a2 2 0 1 0 4 0a2 2 0 1 0-4 0m10 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0"/><path d="M5 17H3V6a1 1 0 0 1 1-1h9v12m-4 0h6m4 0h2v-6h-8m0-5h5l3 5"/></g></svg><span>Purchases &amp; Suppliers</span></a></li></ul></div>
+<div class="nav-group"><div class="nav-heading"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0"/><path d="M14.8 9A2 2 0 0 0 13 8h-2a2 2 0 1 0 0 4h2a2 2 0 1 1 0 4h-2a2 2 0 0 1-1.8-1M12 7v10"/></g></svg>Money &amp; Staff</div><ul class="nav-list"><li class="nav-item"><a href="10-finance-accounting.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21h18M3 10h18M5 6l7-3l7 3M4 10v11m16-11v11M8 14v3m4-3v3m4-3v3"/></svg><span>Payment Accounts &amp; Accounting</span></a></li><li class="nav-item"><a href="27-accounting-reports.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M8 5H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h5.697M18 14v4h4m-4-7V7a2 2 0 0 0-2-2h-2"/><path d="M8 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v0a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m6 13a4 4 0 1 0 8 0a4 4 0 1 0-8 0m-6-7h4m-4 4h3"/></g></svg><span>Accounting Reports &amp; Ledgers</span></a></li><li class="nav-item"><a href="24-fixed-assets.html" class="nav-link active"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M3 21h18M5 21V9l5 4V9l5 4h4"/><path d="M19 21v-8l-1.436-9.574A.5.5 0 0 0 17.069 3h-1.145a.5.5 0 0 0-.494.418L14 12m-5 5h1m4 0h1"/></g></svg><span>Fixed Assets</span></a></li><li class="nav-item"><a href="11-staff-payroll.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85"/></svg><span>Staff, Roles &amp; Salary</span></a></li><li class="nav-item"><a href="22-reports-guide.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><path d="M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v0a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 12v-5m3 5v-1m3 1v-3"/></g></svg><span>Which Report Do I Need?</span></a></li></ul></div>
+<div class="nav-group"><div class="nav-heading"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 0 0-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 0 0-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 0 0-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 0 0-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 0 0 1.066-2.573c-.94-1.543.826-3.31 2.37-2.37c1 .608 2.296.07 2.572-1.065"/><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0-6 0"/></g></svg>Setup</div><ul class="nav-list"><li class="nav-item"><a href="21-restaurant-setup.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.5 5.5L5 7l2.5-2.5m-4 7L5 13l2.5-2.5m-4 7L5 19l2.5-2.5M11 6h9m-9 6h9m-9 6h9"/></svg><span>Restaurant Setup Checklist</span></a></li><li class="nav-item"><a href="12-settings-branding.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 10a2 2 0 1 0 4 0a2 2 0 0 0-4 0m2-6v4m0 4v8m4-4a2 2 0 1 0 4 0a2 2 0 0 0-4 0m2-12v10m0 4v2m4-13a2 2 0 1 0 4 0a2 2 0 0 0-4 0m2-3v1m0 4v11"/></svg><span>Settings, Tax &amp; White Label</span></a></li><li class="nav-item"><a href="13-howto-meal-pricing.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M6.5 7.5a1 1 0 1 0 2 0a1 1 0 1 0-2 0"/><path d="M3 6v5.172a2 2 0 0 0 .586 1.414l7.71 7.71a2.41 2.41 0 0 0 3.408 0l5.592-5.592a2.41 2.41 0 0 0 0-3.408l-7.71-7.71A2 2 0 0 0 11.172 3H6a3 3 0 0 0-3 3"/></g></svg><span>How to Set Meal Times &amp; Prices</span></a></li></ul></div>
+<div class="nav-group"><div class="nav-heading"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 6h9m-9 6h9m-8 6h8M4 16a2 2 0 1 1 4 0c0 .591-.5 1-1 1.5L4 20h4M6 10V4L4 6"/></svg>How-To Guides</div><ul class="nav-list"><li class="nav-item"><a href="14-howto-walkin-dining.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M12 4a1 1 0 1 0 2 0a1 1 0 1 0-2 0M7 21l3-4m6 4l-2-4l-3-3l1-6"/><path d="m6 12l2-3l4-1l3 3l3 1"/></g></svg><span>How to Seat &amp; Bill a Walk-In</span></a></li><li class="nav-item"><a href="15-howto-kitchen-refills.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 11A8.1 8.1 0 0 0 4.5 9M4 5v4h4m-4 4a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4"/></svg><span>How to Request Refills &amp; Log Waste</span></a></li><li class="nav-item"><a href="16-howto-shift-closing.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M5 13a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z"/><path d="M11 16a1 1 0 1 0 2 0a1 1 0 0 0-2 0m-3-5V7a4 4 0 1 1 8 0v4"/></g></svg><span>How to Close the Register</span></a></li></ul></div>
+<div class="nav-group"><div class="nav-heading"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M8 12a4 4 0 1 0 8 0a4 4 0 1 0-8 0"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0m12 3l3.35 3.35M9 15l-3.35 3.35m0-12.7L9 9m9.35-3.35L15 9"/></g></svg>Help</div><ul class="nav-list"><li class="nav-item"><a href="17-troubleshooting-faq.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0m9 4v.01"/><path d="M12 13a2 2 0 0 0 .914-3.782a1.98 1.98 0 0 0-2.414.483"/></g></svg><span>Troubleshooting &amp; FAQ</span></a></li><li class="nav-item"><a href="18-glossary.html" class="nav-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h6a2 2 0 0 1 2 2a2 2 0 0 1 2-2h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1h-6a2 2 0 0 0-2 2a2 2 0 0 0-2-2m2-14v16M7 7h1m-1 4h1m8-4h1m-1 4h1m-1 4h1"/></svg><span>Glossary</span></a></li></ul></div>
+    </nav>
+    <main class="main-wrapper">
+      <article class="content-container">
+        <nav class="breadcrumb-nav" aria-label="Breadcrumb"><a href="index.html">Home</a><span class="breadcrumb-separator">›</span><span>Money &amp; Staff</span><span class="breadcrumb-separator">›</span><span class="breadcrumb-current">Fixed Assets</span></nav>
+        <h1 class="page-title"><svg class="ti title-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M3 21h18M5 21V9l5 4V9l5 4h4"/><path d="M19 21v-8l-1.436-9.574A.5.5 0 0 0 17.069 3h-1.145a.5.5 0 0 0-.494.418L14 12m-5 5h1m4 0h1"/></g></svg>Fixed Assets</h1>
+        <p class="page-lead">Fixed asset dashboard, categories, purchases, items, depreciation, maintenance and disposal.</p>
+        <div class="role-tags" aria-label="Who uses this page"><span class="role-label">Who uses this page:</span><span class="role-tag"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"/></svg>Accountant</span><span class="role-tag"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"/></svg>Owner</span></div>
+<div class="callout callout-tip">
+  <div class="callout-title"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12h1m8-9v1m8 8h1M5.6 5.6l.7.7m12.1-.7l-.7.7M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0-1 3a2 2 0 0 1-4 0a3.5 3.5 0 0 0-1-3m.7 1h4.6"/></svg>Before you start</div>
+  <p class="mb-0">Fixed assets are things the restaurant owns and uses for years: kitchen equipment, furniture, freezers, computers. Set up <strong>Fixed Asset Settings</strong> and at least one entry in <strong>Asset Categories</strong> first. The accounts a category needs come from the Chart of Accounts.</p>
+</div>
+
+<figure class="step-figure">
+    <img src="assets/screenshots/fa-01-dashboard.png" alt="Fixed Asset Dashboard with the eight cards and charts" />
+    <figcaption class="step-caption">Figure 24.1: Fixed Asset Dashboard: the eight cards, Book Value by Category and Asset Acquisitions.</figcaption>
+  </figure>
+
+<h2 class="section-heading">Fixed Asset Dashboard</h2>
+<div class="step-card">
+  <div class="step-header"><span class="step-badge">Overview</span><h3 class="step-title">Fixed Asset &gt; Dashboard</h3></div>
+  <p class="step-desc">Choose a category under <strong>All Categories</strong> and a period with <strong>From Date</strong> and <strong>To Date</strong>. The cards show:</p>
+  <ul>
+    <li><strong>Total Assets</strong>: number of active assets.</li>
+    <li><strong>Acquisition Cost</strong>, <strong>Accumulated Depreciation</strong> and <strong>Net Book Value</strong> (cost minus accumulated depreciation) of the active assets.</li>
+    <li><strong>This Month's Depreciation</strong>.</li>
+    <li><strong>Maintenance Cost</strong> in the chosen period.</li>
+    <li><strong>Maintenance Due</strong>: assets whose next maintenance date is within the next 7 days or already passed.</li>
+    <li><strong>Disposed Assets</strong>: number of disposed assets.</li>
+  </ul>
+  <p>Charts: <strong>Book Value by Category</strong>, <strong>Depreciation Trend</strong>, <strong>Maintenance Cost Trend</strong> and <strong>Asset Acquisitions</strong> (last 12 months).</p>
+</div>
+
+<h2 class="section-heading">Asset Categories</h2>
+<div class="step-card">
+  <div class="step-header"><span class="step-badge">Setup</span><h3 class="step-title">Fixed Asset &gt; Asset Categories</h3></div>
+  <p class="step-desc">Click <strong>Add Category</strong>, fill in the form and click <strong>Save</strong>.</p>
+  <div class="table-container my-4">
+    <table class="data-table">
+      <thead><tr><th>Field</th><th>Required?</th><th>What to enter</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Name</strong></td><td>Yes</td><td>The group of assets.</td><td>Kitchen Equipment</td></tr>
+        <tr><td><strong>Code</strong></td><td>Yes</td><td>A short code; each category needs its own.</td><td>KIT</td></tr>
+        <tr><td><strong>Parent Category</strong></td><td>No</td><td>A bigger group this one belongs to.</td><td>Equipment</td></tr>
+        <tr><td><strong>Asset Account</strong></td><td>Yes</td><td>The account that holds these assets' cost (a Non-current Assets account).</td><td>Kitchen Equipment</td></tr>
+        <tr><td><strong>Accumulated Depreciation</strong></td><td>Yes</td><td>The account that collects their depreciation.</td><td>Accumulated Depreciation</td></tr>
+        <tr><td><strong>Depreciation Expense Account</strong></td><td>Yes</td><td>The expense account for depreciation.</td><td>Depreciation Expense</td></tr>
+        <tr><td><strong>Depreciation Method</strong></td><td>Yes</td><td><strong>Straight Line</strong> or <strong>Declining Balance</strong>.</td><td>Straight Line</td></tr>
+        <tr><td><strong>Useful Life (Months)</strong></td><td>Yes</td><td>1 to 600 months.</td><td>60</td></tr>
+        <tr><td><strong>Salvage Value (%)</strong></td><td>No</td><td>0 to 100: what is left at the end, as a % of cost.</td><td>5</td></tr>
+        <tr><td><strong>Description</strong></td><td>No</td><td>Notes.</td><td>Stoves and ovens</td></tr>
+        <tr><td><strong>Status</strong></td><td>Yes</td><td><strong>Active</strong> or <strong>Inactive</strong>.</td><td>Active</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>When you choose a category on an asset, its <strong>Depreciation Method</strong> and <strong>Useful Life (Months)</strong> are copied to the asset, and the salvage value is worked out from its percentage if you have not entered one.</p>
+</div>
+
+<h2 class="section-heading">Assets you already owned</h2>
+<div class="step-card">
+  <div class="step-header"><span class="step-badge">Add Item</span><h3 class="step-title">Fixed Asset &gt; Add Item</h3></div>
+  <p class="step-desc">The form opens with the note "Use this form for assets you already owned before the go-live date. Buy new assets through Asset Purchase." For equipment you buy now, use <strong>Fixed Asset &gt; Add Asset Purchase</strong> instead.</p>
+
+  <figure class="step-figure">
+    <img src="assets/screenshots/fa-02-item-form.png" alt="Add Item form with the go-live note and an asset category chosen" />
+    <figcaption class="step-caption">Figure 24.2: Add Item with the go-live note and a category chosen.</figcaption>
+  </figure>
+
+  <div class="table-container my-4">
+    <table class="data-table">
+      <thead><tr><th>Field</th><th>Required?</th><th>What to enter</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Name</strong></td><td>Yes</td><td>What the asset is.</td><td>Gas range, 4 burners</td></tr>
+        <tr><td><strong>Code</strong></td><td>Yes</td><td>Filled in for you (from the Asset Code Prefix); each asset needs its own.</td><td>FA-0001</td></tr>
+        <tr><td><strong>Asset Category</strong></td><td>Yes</td><td>Its category.</td><td>Kitchen Equipment</td></tr>
+        <tr><td><strong>Brand</strong>, <strong>Model</strong>, <strong>Serial Number</strong>, <strong>Barcode / QR Code</strong></td><td>No</td><td>From the label on the equipment.</td><td>—</td></tr>
+        <tr><td><strong>Condition</strong></td><td>No</td><td>New, Good, Fair or Poor.</td><td>Good</td></tr>
+        <tr><td><strong>Quantity</strong></td><td>Yes</td><td>A whole number, 1 or more.</td><td>1</td></tr>
+        <tr><td><strong>Purchase Date</strong></td><td>Yes</td><td>When it was bought; not in the future.</td><td>—</td></tr>
+        <tr><td><strong>Available-for-Use Date</strong></td><td>Yes</td><td>When it was first used; not before the Purchase Date.</td><td>—</td></tr>
+        <tr><td><strong>Invoice No.</strong></td><td>No</td><td>The supplier's invoice number.</td><td>—</td></tr>
+        <tr><td><strong>Purchase Cost</strong></td><td>Yes</td><td>The price, more than 0.</td><td>120,000</td></tr>
+        <tr><td><strong>Additional Capitalizable Costs</strong></td><td>No</td><td>Delivery or installation.</td><td>10,000</td></tr>
+        <tr><td><strong>Total Capitalized Cost</strong></td><td>—</td><td>Worked out: Purchase Cost + Additional Capitalizable Costs.</td><td>130,000</td></tr>
+        <tr><td><strong>Depreciation Method</strong>, <strong>Useful Life (Months)</strong></td><td>Yes</td><td>Copied from the category; you can change them.</td><td>Straight Line, 60</td></tr>
+        <tr><td><strong>Salvage Value</strong></td><td>No</td><td>What it is worth at the end of its life.</td><td>6,500</td></tr>
+        <tr><td><strong>Depreciation Start Date</strong></td><td>No</td><td>"Optional. Depreciation starts the month after the asset is put into use."</td><td>—</td></tr>
+        <tr><td><strong>Depreciation to Go-live</strong></td><td>No</td><td>Depreciation the asset already had before the go-live date. Shown only when the Purchase Date is before the go-live date (or no go-live date is set).</td><td>24,700</td></tr>
+        <tr><td><strong>Assigned Employee</strong></td><td>No</td><td>Who looks after it.</td><td>—</td></tr>
+        <tr><td><strong>Note</strong></td><td>No</td><td>Up to 500 characters.</td><td>—</td></tr>
+        <tr><td><strong>Status</strong></td><td>Yes</td><td>Active or Inactive.</td><td>Active</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Click <strong>Submit</strong>. All assets are in <strong>Fixed Asset &gt; List Item</strong>. Once depreciation has been posted for an asset, the form says "Depreciation is already posted for this asset; its cost and depreciation settings can no longer change."</p>
+</div>
+
+<h2 class="section-heading">Buying New Equipment (Asset Purchase)</h2>
+<div class="step-card">
+  <div class="step-header"><span class="step-badge">Purchase</span><h3 class="step-title">Fixed Asset &gt; Add Asset Purchase</h3></div>
+  <p class="step-desc">Use this for equipment you buy now. Saved purchases are in <strong>Fixed Asset &gt; List Asset Purchases</strong>.</p>
+
+  <figure class="step-figure">
+    <img src="assets/screenshots/fa-03-asset-purchase.png" alt="Add Asset Purchase with a supplier, one asset line and Payment Details" />
+    <figcaption class="step-caption">Figure 24.3: Add Asset Purchase with the supplier chosen, one asset line and Payment Details.</figcaption>
+  </figure>
+
+  <ol>
+    <li>Choose the <strong>Supplier</strong> and check the <strong>Date</strong>. Enter the <strong>Invoice No.</strong> if you have one.</li>
+    <li>For each asset fill in a line: <strong>Asset Category</strong>, <strong>Asset Name</strong>, <strong>Unit Price</strong> and <strong>Quantity</strong> (a whole number). The <strong>Total</strong> is worked out. Turn on <strong>Track each unit</strong> to keep each unit as a separate asset. Click <strong>Add Asset</strong> for another line.</li>
+    <li>If a unit price is below the <strong>Capitalization Threshold</strong> in Fixed Asset Settings, the line shows "Below the capitalization threshold: consider recording it as an expense."</li>
+    <li>Under <strong>Payment Details</strong>: enter a <strong>Discount</strong> if any (amount or %), check the <strong>G. Total</strong>, choose the <strong>Account</strong> you pay from and the <strong>Paid</strong> amount. What is not paid shows as <strong>Due</strong> and is owed to the supplier.</li>
+    <li>Click <strong>Submit</strong>, or <strong>Save as Draft</strong> to finish later.</li>
+  </ol>
+</div>
+
+<h2 class="section-heading">Posting Monthly Depreciation</h2>
+<div class="step-card">
+  <div class="step-header"><span class="step-badge">Depreciation</span><h3 class="step-title">Fixed Asset &gt; Depreciation</h3></div>
+  <p class="step-desc">Depreciation spreads an asset's cost over its useful life. Post it once a month.</p>
+
+  <figure class="step-figure">
+    <img src="assets/screenshots/fa-04-depreciation.png" alt="Depreciation page with the charge table, Skipped assets and Posted Months" />
+    <figcaption class="step-caption">Figure 24.4: Depreciation for a month: the charge table, Skipped assets and Posted Months.</figcaption>
+  </figure>
+
+  <ol>
+    <li>Choose the <strong>Month</strong>.</li>
+    <li>The table shows each asset to charge: <strong>Code</strong>, <strong>Asset</strong>, <strong>Category</strong>, <strong>Accumulated Before</strong>, <strong>Charge</strong> and <strong>Book Value After</strong>. A charge that covers earlier months that were never posted shows "includes catch-up for N months".</li>
+    <li>Depreciation starts the month after the asset's <strong>Available-for-Use Date</strong>.</li>
+    <li>Assets that are not charged are listed under <strong>Skipped assets</strong> (click it to open the list), each with its reason: not set up, not in use yet, already charged, useful life ended or fully depreciated.</li>
+    <li>Click <strong>Post Depreciation</strong>. The month appears under <strong>Posted Months</strong>.</li>
+    <li>To undo a month, click <strong>Reverse</strong> on it under <strong>Posted Months</strong>, write the <strong>Reason</strong> and click <strong>Reverse</strong>. Only the latest posted month can be reversed.</li>
+  </ol>
+</div>
+
+<h2 class="section-heading">Maintenance</h2>
+<div class="step-card">
+  <div class="step-header"><span class="step-badge">Maintenance</span><h3 class="step-title">Fixed Asset &gt; Add Maintenance</h3></div>
+  <div class="table-container my-4">
+    <table class="data-table">
+      <thead><tr><th>Field</th><th>Required?</th><th>What to enter</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Fixed Asset Item</strong></td><td>Yes</td><td>The asset that was serviced.</td><td>FA-0001 Gas range</td></tr>
+        <tr><td><strong>Maintenance Date</strong></td><td>Yes</td><td>When it was done; not in the future.</td><td>—</td></tr>
+        <tr><td><strong>Maintenance Type</strong></td><td>No (starts as Routine)</td><td>Routine, Repair, Replacement, Inspection or Emergency Repair.</td><td>Repair</td></tr>
+        <tr><td><strong>Cost</strong></td><td>Yes</td><td>What it cost, more than 0.</td><td>3,500</td></tr>
+        <tr><td><strong>Payment Account</strong></td><td>Yes</td><td>The account you paid from.</td><td>Cash</td></tr>
+        <tr><td><strong>Service Provider</strong>, <strong>Reference No.</strong></td><td>No</td><td>Who did the work and their bill number.</td><td>—</td></tr>
+        <tr><td><strong>Responsible Person</strong></td><td>No</td><td>The employee or admin in charge.</td><td>—</td></tr>
+        <tr><td><strong>Next Maintenance Date</strong></td><td>No</td><td>Must be after the Maintenance Date.</td><td>—</td></tr>
+        <tr><td><strong>Note</strong></td><td>No</td><td>Up to 500 characters.</td><td>—</td></tr>
+        <tr><td><strong>Status</strong></td><td>Yes</td><td>Active or Inactive.</td><td>Active</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Click <strong>Submit</strong>. Records are in <strong>Fixed Asset &gt; List Maintenance</strong>.</p>
+</div>
+
+<h2 class="section-heading">Disposal (selling or retiring an asset)</h2>
+<div class="step-card">
+  <div class="step-header"><span class="step-badge">Disposal</span><h3 class="step-title">Fixed Asset &gt; Add Disposal</h3></div>
+
+  <figure class="step-figure">
+    <img src="assets/screenshots/fa-05-disposal-form.png" alt="Add Disposal with Disposal Type Sold, Sale Amount and the Estimated Gain" />
+    <figcaption class="step-caption">Figure 24.5: Add Disposal with Disposal Type Sold and the Estimated Gain.</figcaption>
+  </figure>
+
+  <ol>
+    <li>Choose the <strong>Asset</strong>. The form shows its <strong>Original Cost</strong>, <strong>Accumulated Depreciation</strong> and <strong>Current Book Value</strong>.</li>
+    <li>Choose the <strong>Disposal Date</strong>. "Depreciation is charged up to the month before the disposal; any month not yet charged is added when you save."</li>
+    <li>Choose the <strong>Disposal Type</strong>: Sold, Damaged, Lost, Scrapped, Written Off, Donated or Returned to Supplier.</li>
+    <li>Only Sold, Scrapped and Returned to Supplier bring money in. Enter the <strong>Sale Amount</strong> (Sold), <strong>Scrap Value Received</strong> (Scrapped) or <strong>Amount Credited by Supplier</strong> (Returned to Supplier), and the <strong>Received Into</strong> account. For Returned to Supplier also choose the <strong>Supplier</strong>.</li>
+    <li>Optional: <strong>Disposal Charges</strong> and the <strong>Charges Paid From</strong> account; <strong>Buyer / Recipient</strong> (or <strong>Reference</strong> for a return); <strong>Disposal Reason</strong>.</li>
+    <li>Check the result: proceeds minus disposal charges minus current book value, shown as <strong>Estimated Gain</strong> or <strong>Estimated Loss</strong>.</li>
+    <li>Click <strong>Submit</strong>. The asset becomes <strong>Disposed</strong>. Records are in <strong>Fixed Asset &gt; List Disposal</strong>.</li>
+  </ol>
+</div>
+
+<h2 class="section-heading">Fixed Asset Settings</h2>
+<div class="step-card">
+  <div class="step-header"><span class="step-badge">Settings</span><h3 class="step-title">Fixed Asset &gt; Fixed Asset Settings</h3></div>
+  <ul>
+    <li><strong>Asset Code Prefix</strong> (required): the start of new asset codes, for example FA-. Letters, numbers, - _ and / only.</li>
+    <li><strong>Default Depreciation Method</strong>: Straight Line or Declining Balance.</li>
+    <li><strong>Default Useful Life (Months)</strong>: 1 to 600.</li>
+    <li><strong>Default Salvage Value (%)</strong>: 0 to 100.</li>
+    <li><strong>Capitalization Threshold</strong>: "A purchase line priced below this shows a hint to record it as an expense instead."</li>
+    <li><strong>Depreciation Start Policy</strong>: shown only, cannot be changed: "Full month from the month after the asset is put into use".</li>
+  </ul>
+  <p>Click <strong>Submit</strong>.</p>
+</div>
+
+<h2 class="section-heading">Fixed Asset Reports</h2>
+<div class="step-card">
+  <div class="step-header"><span class="step-badge">Reports</span><h3 class="step-title">Fixed Asset &gt; Fixed Asset Reports</h3></div>
+  <p class="step-desc">Choose the <strong>Report</strong>, set the filters and click <strong>Filter</strong>. Every report except Fixed Asset Reconciliation also has <strong>Category</strong> and <strong>Search</strong> ("Code, name or serial no.").</p>
+  <div class="table-container my-4">
+    <table class="data-table">
+      <thead><tr><th>Report</th><th>Columns</th><th>Other filters</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Fixed Asset Register</strong></td><td>Code, Name, Category, Assigned Employee, Serial Number, Purchase Date, Cost, Accumulated Depreciation, Book Value, Status</td><td>Status (Active, Disposed, Inactive)</td></tr>
+        <tr><td><strong>Net Book Value</strong></td><td>Code, Name, Category, Cost, Accumulated Depreciation, Book Value</td><td>Status</td></tr>
+        <tr><td><strong>Asset Acquisitions</strong></td><td>Purchase Date, Code, Name, Category, Reference, Supplier, Quantity, Cost</td><td>From Date, To Date, Status</td></tr>
+        <tr><td><strong>Depreciation Schedule</strong></td><td>Code, Name, Month, Charge, Status (Posted or Projected)</td><td>From Date, To Date</td></tr>
+        <tr><td><strong>Depreciation Summary</strong></td><td>Month, Category, Assets, Depreciation</td><td>From Date, To Date</td></tr>
+        <tr><td><strong>Maintenance Report</strong></td><td>Date, Code, Name, Maintenance Type, Service Provider, Reference No., Cost, Next Maintenance Date</td><td>From Date, To Date</td></tr>
+        <tr><td><strong>Disposal Report</strong></td><td>Date, Code, Name, Disposal Type, Cost, Accumulated Depreciation, Book Value, Amount Received, Disposal Charges, Gain / Loss</td><td>From Date, To Date</td></tr>
+        <tr><td><strong>Fixed Asset Reconciliation</strong></td><td>Account, Register Total, Ledger Balance, Difference (a difference is shown in bold)</td><td>As Of</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<h2 class="section-heading">What happens next</h2>
+<ul>
+  <li>Buying, maintaining, depreciating and disposing of assets write their accounting entries by themselves. Maintenance goes to <strong>Repairs &amp; Maintenance</strong>; a disposal result goes to <strong>Gain on Asset Disposal</strong> or <strong>Loss on Asset Disposal</strong>.</li>
+  <li>Money paid or received moves the payment account you chose.</li>
+</ul>
+
+<h2 class="section-heading">Common problems</h2>
+<div class="table-container my-4">
+  <table class="data-table">
+    <thead><tr><th>Message</th><th>What to do</th></tr></thead>
+    <tbody>
+      <tr><td>"This category code is already used."</td><td>Give the category another Code.</td></tr>
+      <tr><td>"Choose a fixed asset account (Non-current Assets)."</td><td>Pick an Asset Account from the Non-current Assets group.</td></tr>
+      <tr><td>"The useful life can be at most 600 months."</td><td>Enter 600 or less.</td></tr>
+      <tr><td>"Buy new assets through Asset Purchase."</td><td>Use <strong>Add Asset Purchase</strong> for new equipment.</td></tr>
+      <tr><td>"The Payment Account is required when the asset is sold."</td><td>Choose the <strong>Received Into</strong> account.</td></tr>
+      <tr><td>"This item already added in the disposal list."</td><td>The asset is already disposed.</td></tr>
+      <tr><td>"Only the latest posted month (…) can be reversed."</td><td>Reverse the newest month first.</td></tr>
+      <tr><td>"Give a reason for the reversal."</td><td>Write a Reason before clicking Reverse.</td></tr>
+      <tr><td>"No asset has depreciation to charge for this month."</td><td>Nothing to post; check Skipped assets for the reasons.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+        <div class="related-box"><h4>Related pages</h4><div class="related-grid"><a href="10-finance-accounting.html" class="related-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21h18M3 10h18M5 6l7-3l7 3M4 10v11m16-11v11M8 14v3m4-3v3m4-3v3"/></svg>Payment Accounts &amp; Accounting</a><a href="27-accounting-reports.html" class="related-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M8 5H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h5.697M18 14v4h4m-4-7V7a2 2 0 0 0-2-2h-2"/><path d="M8 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v0a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m6 13a4 4 0 1 0 8 0a4 4 0 1 0-8 0m-6-7h4m-4 4h3"/></g></svg>Accounting Reports &amp; Ledgers</a><a href="20-purchases-suppliers.html" class="related-link"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M5 17a2 2 0 1 0 4 0a2 2 0 1 0-4 0m10 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0"/><path d="M5 17H3V6a1 1 0 0 1 1-1h9v12m-4 0h6m4 0h2v-6h-8m0-5h5l3 5"/></g></svg>Purchases &amp; Suppliers</a></div></div>
+        <div class="page-pagination"><a href="27-accounting-reports.html" class="btn-nav"><svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12l6 6m-6-6l6-6"/></svg>Previous: Accounting Reports &amp; Ledgers</a><a href="11-staff-payroll.html" class="btn-nav">Next: Staff, Roles &amp; Salary<svg class="ti" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-6 6l6-6m-6-6l6 6"/></svg></a></div>
+      </article>
+    </main>
+  </div>
+  <script src="assets/js/search-index.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
